@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CV Baitul Ikhlas</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+/* CONTAINER */
+
+.container{
+    width:1100px;
+    min-height:700px;
+    display:grid;
+    grid-template-columns:320px 1fr;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,0.5);
+}
+
+/* LEFT SIDE */
+
+.left{
+    background:rgba(255,255,255,0.05);
+    padding:40px 30px;
+    color:white;
+    border-right:1px solid rgba(255,255,255,0.1);
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.profile img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid #60a5fa;
+    object-fit:cover;
+    box-shadow:0 0 30px rgba(96,165,250,0.7);
+    transition:0.4s;
+}
+
+.profile img:hover{
+    transform:scale(1.05);
+}
+
+.profile h1{
+    margin-top:20px;
+    font-size:30px;
+}
+
+.profile p{
+    color:#cbd5e1;
+    margin-top:8px;
+}
+
+.title{
+    margin-top:30px;
+    margin-bottom:15px;
+    font-size:20px;
+    color:#60a5fa;
+}
+
+.contact p{
+    margin:15px 0;
+    color:#e2e8f0;
+}
+
+/* SKILLS */
+
+.skill{
+    margin-bottom:20px;
+}
+
+.skill span{
+    color:white;
+    font-size:14px;
+}
+
+.bar{
+    width:100%;
+    height:10px;
+    background:rgba(255,255,255,0.1);
+    border-radius:20px;
+    margin-top:8px;
+    overflow:hidden;
+}
+
+.fill{
+    height:100%;
+    border-radius:20px;
+    background:linear-gradient(90deg,#3b82f6,#60a5fa);
+    box-shadow:0 0 10px #60a5fa;
+}
+
+/* RIGHT */
+
+.right{
+    padding:40px;
+    color:white;
+}
+
+.section{
+    background:rgba(255,255,255,0.05);
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.08);
+    transition:0.4s;
+}
+
+.section:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.section h2{
+    color:#60a5fa;
+    margin-bottom:15px;
+    font-size:26px;
+}
+
+.section p{
+    line-height:1.9;
+    color:#e2e8f0;
+    text-align:justify;
+}
+
+/* EXPERIENCE */
+
+.job{
+    margin-bottom:20px;
+}
+
+.job h3{
+    color:white;
+    margin-bottom:8px;
+}
+
+.job small{
+    color:#94a3b8;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.container{
+    grid-template-columns:1fr;
+}
+
+.left{
+    border-right:none;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT -->
+    <div class="left">
+
+        <div class="profile">
+
+            <!-- FOTO -->
+            <img src="profile.jpg.jpeg" alt="profile.jpg.jpeg">
+
+            <h1>Baitul Ikhlas</h1>
+            <p>Curriculum Vitae </p>
+
+        </div>
+
+        <div class="contact">
+
+            <h2 class="title">Kontak</h2>
+
+            <p>📍 Tangerang Selatan</p>
+            <p>📞 081381779034</p>
+            <p>✉ baitulikhlasss@gmail.com</p>
+            <p>🎂 01 desember 2003</p>
+
+        </div>
+
+        <div class="skills">
+
+            <h2 class="title">Keahlian</h2>
+
+            <div class="skill">
+                <span>Microsoft word</span>
+                <div class="bar">
+                    <div class="fill" style="width:90%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Microsoft power point</span>
+                <div class="bar">
+                    <div class="fill" style="width:85%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Microsoft excel</span>
+                <div class="bar">
+                    <div class="fill" style="width:75%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Language english</span>
+                <div class="bar">
+                    <div class="fill" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Language indonesia</span>
+                <div class="bar">
+                    <div class="fill" style="width:100%"></div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+
+        <div class="section">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Saya adalah seseorang yang memiliki minat besar
+                di bidang teknologi dan pemrograman.
+                Memiliki pengalaman magang di PPTIK ITB serta
+                pengalaman kerja di bidang pelayanan.
+                Saya adalah pribadi yang disiplin, kreatif,
+                cepat belajar, dan mampu bekerja dalam tim.
+            </p>
+        </div>
+
+        <div class="section">
+
+            <h2>Pengalaman</h2>
+
+            <div class="job">
+                <h3>PT PESTA PORA ABADI- OPERASIONAL</h3>
+                <small>2023 - </small>
+
+                <p>
+                    Melayani pelanggan, menjaga kualitas pelayanan,
+                    dan memastikan area kerja tetap bersih dan rapi.
+                </p>
+                <p>
+                    memberi pelayanan self service terbaik kepada customer
+                </p>
+                <p>
+                    
+                </p>
+
+     
+            </div>
+<div class="job">
+                <h3>Magang
+Pusat Penelitian Teknologi Informasi Dan Komunikasi (PPTIK) Institut Teknologi
+Bandung (ITB), Bandung</h3>
+                <small>2023 - ..</small>
+
+               <p>
+                   1. Membuat project multimedia dan editing video
+                    menggunakan software digital serta belajar
+                    pengembangan teknologi informasi.
+                </p>
+                <p>
+                   2. Memanfaatkan Aplikasi Microsoft Power Point untuk membuat bahan persentasi yang
+menarik.
+                </p>
+                <p>
+                    3. Menunjukkan keterampilan dalam menggoperasikan Microsoft Of Office
+                </p>
+            </div>
+            <div class="job">
+                <h3>Magang PPTIK ITB</h3>
+                <small>2022</small>
+
+                <p>
+                    Membuat project multimedia dan editing video
+                    menggunakan software digital serta belajar
+                    pengembangan teknologi informasi.
+                </p>
+            </div>
+            <div class="job">
+                <h3>Hotel ritz carlton, jakarta</h3>
+                <small>2022</small>
+                <p>
+                    saya menyajikan dan mengantar makanan kepada para tamu di acara pernikahan atau event
+membangun rasa percaya diri untuk berkomunikasi kepada rekan tim atau para tamu
+"Mampu bekerja dibawah tekanan
+                </p>
+
+        <div class="section">
+
+            <h2>Pendidikan</h2>
+
+            <div class="job">
+                <h3>SMK Multimedia</h3>
+                <small>2020 - 2023</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
